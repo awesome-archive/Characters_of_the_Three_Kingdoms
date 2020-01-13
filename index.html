@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Characters_of_the_Three_Kingdoms - 三国人物结构化数据</title>
+  <title>Characters of the Three Kingdoms - 三国人物结构化数据</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="keywords" content="myvin,Characters_of_the_Three_Kingdoms,三国结构化数据,三国,结构化数据,结构化,数据"/>
-  <meta name="description" content="myvin,Characters_of_the_Three_Kingdoms - 三国人物结构化数据" />
+  <meta name="keywords" content="myvin,Characters of the Three Kingdoms,三国结构化数据,三国,结构化数据,结构化,数据,mayuxiao,github"/>
+  <meta name="description" content="myvin,Characters_of_the_Three_Kingdoms - 三国人物结构化数据,Characters of the Three Kingdoms" />
+  <link rel="shortcut icon" href="./favicon.ico">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="format-detection" content="email=no" />
@@ -20,11 +21,17 @@
       word-wrap: break-word;
     }
     body {
-      padding: 15px;
       color: #2c3e50;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
     .wrapper {
+      flex: 1;
+      width: 100%;
       max-width: 900px;
+      padding: 0 15px;
+      box-sizing: border-box;
       margin: 0 auto;
     }
     .forkme {
@@ -49,13 +56,17 @@
       right: 0;
       width: 200px;
     }
-    h1 {
-      color: #0077bb;
-      margin: 20px 0 20px;
+    .title {
+      padding: 30px 0;
+      word-wrap: break-word;
     }
-    h2 {
-      margin: 35px 0 20px;
-      font-size: 26px;
+    .title h1 {
+      font-size: 2em;
+    }
+    .title h2 {
+      font-size: 1.4em;
+      font-weight: lighter;
+      color: #666;
     }
     p {
       margin:0 0 20px;
@@ -64,19 +75,23 @@
     ul,
     li {
       list-style-type: none;
-      margin-bottom: 20px;
     }
     ul {
       display: flex;
       /*justify-content: center;*/
       align-items: center;
       flex-wrap: wrap;
+      max-height: 14.4em;
+      overflow: scroll;
+      background: #eee;
+      margin-bottom: 20px;
     }
     li {
       text-align: center;
       width: 5em;
       line-height: 1em;
       transition: .5s ease;
+      padding: 0.6em 0;
     }
     li:hover {
       color: #cd5c5c;
@@ -91,9 +106,9 @@
       position: relative;
       border: 1px dashed #bbb;
       padding: 5px;
-      margin: 5px;
       color: #333;
       background: rgba(102,128,153,.1);
+      margin-bottom: 40px;
     }
     #code .wrapper {
       overflow: scroll;
@@ -113,21 +128,43 @@
     .key {
       color: #cd5c5c;
     }
+    footer {
+      color: #fafafa;
+      background-color: #333;
+      text-align: center;
+      padding: 15px 0;
+    }
+    footer p {
+      font-size: 12px;
+      margin: 0;
+    }
+    footer a {
+      font-size: 12px;
+      color: currentColor;
+      text-decoration: none;
+      border-bottom: 1px dotted currentColor;
+    }
 </style>
 <body>
   <a class='forkme' href="https://github.com/myvin/Characters_of_the_Three_Kingdoms" target='_blank'>
     <img src="./forkme_right.png" alt="fork">
   </a>
   <div class="wrapper">
-    <h1>Characters_of_the_Three_Kingdoms - 三国人物结构化数据</h1>
-    <p>三国人物结构化数据</p>
-    <h2>已完成的人物数据</h2>
+    <div class="title">
+      <h1>Characters of the Three Kingdoms</h1>
+      <h2>三国人物结构化数据</h2>
+    </div>
+    <p>已完成的人物数据：</p>
     <ul id='characters'>
     </ul>
     <div id='code'>
       <div class="wrapper">数据展示区</div>
     </div>
   </div>
+  <footer>
+    <p><a href="https://github.com/myvin/Characters_of_the_Three_Kingdoms" title='Characters_of_the_Three_Kingdoms - 三国人物结构化数据' target="_blank">Characters_of_the_Three_Kingdoms - 三国人物结构化数据</a> made by <a href="https://github.com/myvin" title="myvin" target="_blank">myvin</a>
+    </p>
+  </footer>
 </body>
 <!-- jquery -->
 <script>
@@ -241,6 +278,26 @@
     <li title='张遵' data-name='张遵'>张遵</li>
     <li title='张绍' data-name='张绍'>张绍</li>
     <li title='张峻' data-name='张峻'>张峻</li>
+    <li title='张悌' data-name='张悌'>张悌</li>
+    <li title='张华' data-name='张华'>张华</li>
+    <li title='张象' data-name='张象'>张象</li>
+    <li title='张俭' data-name='张俭'>张俭</li>
+    <li title='张承' data-name='张承1'>张承</li>
+    <li title='张承' data-name='张承2'>张承</li>
+    <li title='张世平' data-name='张世平'>张世平</li>
+    <li title='张津' data-name='张津'>张津</li>
+    <li title='张弥' data-name='张弥'>张弥</li>
+    <li title='刘宏' data-name='刘宏'>刘宏</li>
+    <li title='刘焉' data-name='刘焉'>刘焉</li>
+    <li title='刘陶' data-name='刘陶'>刘陶</li>
+    <li title='刘陶' data-name='刘陶2'>刘陶</li>
+    <li title='刘虞' data-name='刘虞'>刘虞</li>
+    <li title='刘岱' data-name='刘岱'>刘岱</li>
+    <li title='刘繇' data-name='刘繇'>刘繇</li>
+    <li title='刘舆' data-name='刘舆'>刘舆</li>
+    <li title='刘宠' data-name='刘宠'>刘宠</li>
+    <li title='刘表' data-name='刘表'>刘表</li>
+    <li title='刘琦' data-name='刘琦'>刘琦</li>
   `;
 
   $('#characters').html(characters);

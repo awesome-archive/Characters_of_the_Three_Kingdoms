@@ -1,4 +1,4 @@
-# Characters_of_the_Three_Kingdoms - 三国人物结构化数据
+# Characters of the Three Kingdoms - 三国人物结构化数据
 
 三国人物结构化数据
 
@@ -50,7 +50,7 @@ gulp
 
 ## Contribute
 
-在 `/characters/` 下修改、添加相关人物的 `json` 文件即可，如果有头像，将头像文件放到 `/images/avatars/` 下即可，同时在 `README.md` 和 `index.html` 中添加人物备注。如果有重名的人物，可在人名后添加数字以示区别。
+在 `/characters/` 下修改、添加相关人物的 `json` 文件即可，如果有头像，将头像文件放到 `/images/avatars/` 下即可。如果有重名的人物，可在人名后添加数字以示区别。
 
 ## 数据示例
 
@@ -111,8 +111,6 @@ gulp
   "posthumousName": ["昭烈皇帝"],
   // 庙号
   "templeName": ["烈祖"],
-  // 世系、氏族
-  "genealogy": null,
   // 历史上的简介
   "historicalBriefIIntroduction": "蜀汉的开国皇帝，相传是汉景帝之子中山靖王刘胜的后代...",
   // 演义上的简介
@@ -285,6 +283,30 @@ gulp
     </tr>
     <tr>
       <td align="center" valign="middle">张峻</td>
+      <td align="center" valign="middle">张悌</td>
+      <td align="center" valign="middle">张华</td>
+      <td align="center" valign="middle">张相</td>
+      <td align="center" valign="middle">张俭</td>
+      <td align="center" valign="middle">张承</td>
+      <td align="center" valign="middle">张承</td>
+      <td align="center" valign="middle">张世平</td>
+      <td align="center" valign="middle">张津</td>
+      <td align="center" valign="middle">张弥</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">刘宏</td>
+      <td align="center" valign="middle">刘焉</td>
+      <td align="center" valign="middle">刘陶</td>
+      <td align="center" valign="middle">刘陶</td>
+      <td align="center" valign="middle">刘虞</td>
+      <td align="center" valign="middle">刘岱</td>
+      <td align="center" valign="middle">刘繇</td>
+      <td align="center" valign="middle">刘舆</td>
+      <td align="center" valign="middle">刘宠</td>
+      <td align="center" valign="middle">刘表</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">刘琦</td>
       <td align="center" valign="middle"></td>
       <td align="center" valign="middle"></td>
       <td align="center" valign="middle"></td>
@@ -313,8 +335,6 @@ gulp
 如果我的项目对你有帮助，可以请我喝杯~~咖啡~~白开水。
 
 ### 支付宝
-
-> 也可以先扫码领红包，然后将红包支付给我（商家）。
 
 <img src="https://raw.githubusercontent.com/myvin/miniprogram/master/9181893579988_.pic_hd.jpg" width="300" /> <img src="https://raw.githubusercontent.com/myvin/miniprogram/master/9191893579989_.pic.jpg" width="300" />
 
